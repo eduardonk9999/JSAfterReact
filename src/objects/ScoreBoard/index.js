@@ -1,4 +1,5 @@
 import PlayerGame from '../../components/PlayerGame/'
+import './style.css'
 
 function ScoreBoard() {
   return /*html*/`
