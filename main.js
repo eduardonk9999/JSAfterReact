@@ -5,6 +5,7 @@ import BoardGame from "./src/objects/BoardGame"
 import PlayerGame from "./src/components/PlayerGame"
 import ScoreBoard from "./src/objects/ScoreBoard"
 
+
 const $root = document.querySelector("#root")
 const $htmlBoardGame = BoardGame(6)
 const $htmlPlayerGame = PlayerGame()
@@ -13,7 +14,7 @@ $root.insertAdjacentHTML(
   "beforeend",
   `
     ${ScoreBoard()}
-    ${BoardGame(6)}
+    ${BoardGame(2)}
   `  
 )
 
